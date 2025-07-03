@@ -38,7 +38,7 @@ Este documento no pretende ser una lección magistral, sino una hoja de ruta rea
 
 ---
 
-## 🛡️ Vulnerabilidades más comunes en Java (con ejemplos y corrección)
+## 🛡️ Vulnerabilidades más comunes en Java 
 
 ### 1. SQL Injection
 
