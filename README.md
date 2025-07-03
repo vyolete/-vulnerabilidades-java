@@ -40,6 +40,23 @@ Este documento no pretende ser una lección magistral, sino una hoja de ruta rea
 
 ## 🛡️ Vulnerabilidades más comunes en Java 
 
+**Objetivo:** Familiarizarse con las vulnerabilidades más comunes.
+
+| Categoría            | Vulnerabilidad           | Descripción breve                                            |
+|----------------------|--------------------------|--------------------------------------------------------------|
+| Entrada/Salida       | SQL Injection            | Inyección de consultas SQL manipuladas                      |
+| Serialización        | Deserialización insegura | Ejecución remota a través de objetos manipulados            |
+| Lógica de aplicación | Validaciones inseguras   | Validaciones solo del lado cliente o incompletas            |
+| Archivos             | Path Traversal           | Acceso a rutas críticas mediante manipulación de parámetros |
+| Seguridad web        | CSRF / XSS               | Manipulación del navegador para realizar acciones no deseadas|
+| Autenticación        | Gestión insegura de tokens | JWT mal implementados, sesiones sin control                |
+
+### 🔍 Recursos útiles
+
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
+
+
 ### 1. SQL Injection
 
 **Vulnerable:**
