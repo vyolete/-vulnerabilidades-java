@@ -225,18 +225,6 @@ br.close();
 
 # 🧲 Entorno de pruebas web Java con vulnerabilidades
 
-### 📁 Estructura
-
-```
-/entorno-web/
-├── src/
-│   └── Main.java
-├── datos/
-│   └── ejemplo.txt
-├── libs/
-└── pom.xml
-```
-
 ## 🚧 En construcción
 
 Esta sección del entorno de pruebas está en desarrollo. Próximamente se incluirán instrucciones detalladas para su configuración y ejecución.
